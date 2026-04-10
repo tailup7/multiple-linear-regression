@@ -1,7 +1,7 @@
 # 重回帰分析
 
 # 利用したオープンデータセット
-カリフォルニア住宅価格データセット。上から5000行のデータだけ使った。
+[カリフォルニア住宅価格データセット](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html)。上から5000行のデータだけ使った。
 
 | 変数名 | 日本語での説明 |
 |:------:|:------:|
