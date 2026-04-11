@@ -1,7 +1,7 @@
 # 重回帰分析
 
 # 利用したオープンデータセット
-[カリフォルニア住宅価格データセット](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html)。サンプル数が20640あり、ランダムに半分を抽出して学習用データとし、残りをテスト用データとした。
+[カリフォルニア住宅価格データセット](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html)。サンプル数が20640あり、ランダムに半分を抽出して学習用データとし、残りを評価用データとした。
 
 | 変数名 | 日本語での説明 |
 |:------:|:------:|
@@ -23,11 +23,6 @@
 
 
 <img src="figures/figure1.png" width="70%">
-
-<!---
-## TODO
-学習データで評価してしまっているので、なおす
---->
 
 # 参考リンク
 + 重回帰分析の正規方程式の数学的導出 https://tutorials.chainer.org/ja/07_Regression_Analysis.html
